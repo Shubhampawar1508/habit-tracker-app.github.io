@@ -1,0 +1,30 @@
+{
+  "name": "habit-tracker",
+  "version": "1.0.0",
+  "description": "App that allows user to add Habits and a weekly view of these habits. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubhampawar1508/Habit_Tracker_app.github.io"
+  },
+  "author": "Shubham Pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubhampawar1508/Habit_Tracker_app.github.io"
+  },
+  "homepage": "https://github.com/Shubhampawar1508/Habit_Tracker_app.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mangoodb": "^1.5.1",
+    "mongoose": "^6.0.6"
+  }
+}
